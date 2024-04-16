@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #13161C;
+}
+
+h2 {
+    color: #0AE98A;
+}
+
+h2,p,ul {
+    font-size: 2rem;
+    font-family: system-ui;
+    color: #0AE98A;
+}
+
+.controls {
+    width: 30%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width:720px) {
+    .controls {
+        width: 100%;
+    }
+}

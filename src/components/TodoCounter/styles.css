@@ -1,0 +1,11 @@
+.counter {
+    width: 50%;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+@media (max-width:720px) {
+    .counter {
+        width: 100%;
+    }
+}

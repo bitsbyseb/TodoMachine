@@ -1,0 +1,36 @@
+.loading-create {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    object-fit: cover;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: linear-gradient(#0AE98A,rgb(100, 255, 100));
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms; 
+    transition-duration: 200ms; 
+    transition-timing-function: linear;
+    animation: loading infinite ease-in-out .4s;
+}
+
+@keyframes loading {
+    0% {
+        background-position:0% 50%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

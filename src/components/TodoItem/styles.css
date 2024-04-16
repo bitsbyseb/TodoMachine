@@ -1,0 +1,53 @@
+.itemCompleted h2 {
+    text-decoration: line-through;
+}
+
+.itemContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    border: 4px solid #0AE98A;
+}
+
+.itemContainer button {
+    height: 3rem;
+    cursor: pointer;
+    border: 4px solid black;
+    border-radius: 5px;
+}
+
+.itemContainer button:active {
+    transform: scale(1.1);
+}
+
+.delete {
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complete {
+    background: #0AE98A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complete:hover,
+.delete:hover {
+    background-color: gray;
+}
+
+.inactive {
+    background-color: gray;
+}
+
+.inactive:hover {
+    background-color: #0AE98A;
+}

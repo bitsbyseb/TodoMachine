@@ -1,0 +1,22 @@
+.loading-counter {
+    width: 50%;
+    height: 50px;
+    background: linear-gradient(#0AE98A,rgb(100, 255, 100));
+    background-size: 250px 250px;
+    border-radius: 15px;
+    animation: loading infinite ease-in-out .4s;
+}
+
+@keyframes loading {
+    0% {
+        background-position:0% 50%;
+    }
+
+    50% {
+        background-position: 100% 0%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

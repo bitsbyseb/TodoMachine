@@ -1,0 +1,32 @@
+.create {
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #0AE98A;
+    border: 4px solid #0AE98A;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-end;
+    z-index: 1;
+    box-shadow: #0AE98A 0px -1px 12px 2px
+}
+
+.create:hover {
+    transform: rotate(320deg);
+    transition: all .4s;
+}
+
+.create:active {
+    background: #13161C;
+    color: #0AE98A;
+    border: 4px solid #0AE98A;
+    transform: scale(1.1);
+}
