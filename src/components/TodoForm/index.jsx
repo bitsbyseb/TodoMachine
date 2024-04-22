@@ -24,7 +24,7 @@ function TodoForm() {
             <label htmlFor="todoValue">Write your new Todo</label>
             <textarea value={newTodoValue} onChange={(e) => setNewTodoValue(e.target.value)} name="" placeholder={msgs[parseInt(Math.random() * msgs.length - 1)]} id="todoValue" cols="10" rows="3"></textarea>
             <div className='buttonsLayout'>
-                <button type="submit" className="TodoSubmit">Add</button>
+                <button type="submit"  className="TodoSubmit">Add</button>
                 <button type='button' onClick={() => setOpenModal(false)} className="TodoCancel">Cancel</button>
             </div>
         </form>
