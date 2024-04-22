@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build:{
     minify:true,
-    cssMinify:"lightningcss"
+    cssMinify:true,
   },
   base:'/TodoMachine/'
 })
